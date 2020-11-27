@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <h2>You need to know CSS</h2>
+    <div class="title">You need to know CSS</div>
   </div>
   <router-view/>
 </template>
@@ -10,20 +10,15 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
 #nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  padding: 3rem;
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
   }
 }
+
 </style>
