@@ -14,7 +14,7 @@
 }
 
 #nav {
-  padding: 3rem;
+  padding: 3rem 3rem 0rem;
   .title {
     font-size: 2rem;
     font-weight: 700;
