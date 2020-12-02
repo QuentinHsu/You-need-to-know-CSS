@@ -1,4 +1,5 @@
 <template>
+  <div class="project_describe">本项目依据于 <a target="_blank" href="https://lhammer.cn/You-need-to-know-css/#/zh-cn/introduce">You need to know css</a></div>
   <div class="categories">
     <div class="demo_project_list">
       <div class="project_item">
@@ -23,6 +24,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.project_describe {
+  margin-left: 4rem;
+}
 .categories {
   margin: auto;
   width: 80rem;
@@ -43,7 +47,7 @@ export default {
       a {
         // margin: auto 0;
         height: 5rem;
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 5rem;
       }
     }
